@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <section class="relogio"><div id="timer" class="timer">00:00:00</div></section>
+
+    <section class="input-align">
+        <div class="input-container">
+            <label for="hora">horas</label>
+            <input class="input" type="number" name="" id="hora" value="00" max="24" min="0">
+          </div>
+          <div class="input-container">
+            <label for="minuto">minutos</label>
+            <input class="input" type="number" name="" id="minuto" value="00" max="59" min="0">
+          </div>
+          <div class="input-container">
+            <label for="segundo">segundos</label>
+            <input class="input" type="number" name="" id="segundo" value="00" max="59" min="0">
+          </div>
+    </section>
+
+    <div class="botao-posicionamento"> <!--ANTES TAVA bnt-->
+        <button class="botao" id="botao-iniciar">INICIAR</button>
+      </div>
+</body>
+<script src="main.js"></script>
+</html>
